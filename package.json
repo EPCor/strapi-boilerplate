@@ -1,0 +1,44 @@
+{
+  "name": "strapp",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev": "strapi develop",
+    "debug": "node --inspect ./node_modules/strapi/bin/strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "lint": "eslint .",
+    "fix": "npm run lint -- --fix"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "strapi": "3.5.3",
+    "strapi-admin": "3.5.3",
+    "strapi-utils": "3.5.3",
+    "strapi-plugin-content-type-builder": "3.5.3",
+    "strapi-plugin-content-manager": "3.5.3",
+    "strapi-plugin-users-permissions": "3.5.3",
+    "strapi-plugin-email": "3.5.3",
+    "strapi-plugin-upload": "3.5.3",
+    "strapi-connector-mongoose": "3.5.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "dffb9f31-c33f-4686-a27b-9d60e8320cc1"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}

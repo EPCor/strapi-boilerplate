@@ -1,0 +1,19 @@
+version: '3.1'
+services:
+  strapi:
+    image: strapi/strapi:alpine
+    restart: always
+    container_name: strap
+    network_mode: ng
+    ports:
+      - 1337:1337
+    volumes:
+      - ./:/srv/app
+    env_file: .env
+    environment:
+      DATABASE_CLIENT: mongo
+      DATABASE_NAME: strapi
+      DATABASE_HOST: mon
+      DATABASE_PORT: 27017
+      DATABASE_USERNAME: root
+      DATABASE_PASSWORD: XXX
