@@ -10,10 +10,10 @@ services:
     volumes:
       - ./:/srv/app
     env_file: .env
-    environment:
-      DATABASE_CLIENT: mongo
-      DATABASE_NAME: strapi
-      DATABASE_HOST: mon
-      DATABASE_PORT: 27017
-      DATABASE_USERNAME: root
-      DATABASE_PASSWORD: XXX
+    # environment:
+    #   DATABASE_CLIENT: mongo
+    #   DATABASE_NAME: strapi
+    #   DATABASE_HOST: mon
+    #   DATABASE_PORT: 27017
+    #   DATABASE_USERNAME: root
+    #   DATABASE_PASSWORD: XXX
