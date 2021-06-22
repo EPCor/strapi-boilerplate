@@ -13,29 +13,24 @@
     "fix": "npm run lint -- --fix"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.21.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "prettier": "^2.2.1"
+    "@babel/eslint-parser": "^7.14.7",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.1"
   },
   "dependencies": {
-    "strapi": "3.5.3",
-    "strapi-admin": "3.5.3",
-    "strapi-utils": "3.5.3",
-    "strapi-plugin-content-type-builder": "3.5.3",
-    "strapi-plugin-content-manager": "3.5.3",
-    "strapi-plugin-users-permissions": "3.5.3",
-    "strapi-plugin-email": "3.5.3",
-    "strapi-plugin-upload": "3.5.3",
-    "strapi-connector-mongoose": "3.5.3"
+    "strapi": "3.6.3",
+    "strapi-admin": "3.6.3",
+    "strapi-utils": "3.6.3",
+    "strapi-plugin-content-type-builder": "3.6.3",
+    "strapi-plugin-content-manager": "3.6.3",
+    "strapi-plugin-users-permissions": "3.6.3",
+    "strapi-plugin-email": "3.6.3",
+    "strapi-plugin-upload": "3.6.3",
+    "strapi-connector-mongoose": "3.6.3"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "dffb9f31-c33f-4686-a27b-9d60e8320cc1"
-  },
+  "author": "zhilidali@qq.com",
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
     "npm": "^6.0.0"
