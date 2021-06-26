@@ -7,6 +7,9 @@ A boilerplate for Strapi application
 * use `prettier` as __Formatter__
 * use `eslint` as __Linter__
 * use `MongoDB` as __Database__
+* support `pm2` as __Process manager__
+* support `docker` as __Container__
+* disable telemetry and tutorial videos
 
 ## Getting Started
 
@@ -25,6 +28,8 @@ npm run start;
 
 # For Docker
 docker-compose up;
+# For pm2
+pm2 start ecosystem.config.js;
 ```
 
 ## Requirements
